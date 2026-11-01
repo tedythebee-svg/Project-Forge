@@ -5,6 +5,7 @@ description: "A custom dimmable RGB lamp powered by ESP32-C3-MINI-1 with a rotar
 created_at: "2026-28-10"
 ---
 
+I used more time to do this because i'm a beginner
 # October 28: Designed the power supply & USB-C interface
 
 Started the schematic in KiCad for the custom lamp PCB. Added the USB-C 16-pin connector with 5.1k pull-down resistors on CC lines, a 100uF bulk capacitor, a PPTC polyfuse for overcurrent protection, and an AP2112K-3.3 LDO regulator for stable 3.3V logic supply.
@@ -22,13 +23,13 @@ Wired the ESP32-C3-MINI-1 microcontroller with its reset/boot circuit and decoup
 
 
 
-**Total time spent: 2.7 hours**
+**Total time spent: 3 hours**
 
 # october 30: Placed 32 WS2812B RGB LEDs & Decoupling Array
 
-Completed the schematic by routing a 4x8 matrix of 32 WS2812B addressable RGB LEDs. Added individual 100nF decoupling capacitors (`C9` to `C40`) on each LED power pin to prevent voltage dips during full brightness operation.
+Completed the schematic by routing a 4x8 matrix of 32 WS2812B addressable RGB LEDs. Added individual 100nF decoupling capacitors (`C9` to `C40`) on each LED power pin to prevent voltage dips during full brightness operation. ANd verified a few times for errors
 <img width="2048" height="1220" alt="{58A5C11F-3ABE-41C7-99F1-E84B952A4A70}" src="https://github.com/user-attachments/assets/3daa4bbf-c40a-4f02-8a63-6950353b40e0" />
 
 
 
-**Total time spent: 3 hours**
+**Total time spent: 3.5 hours**
