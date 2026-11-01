@@ -22,7 +22,7 @@ Wired the ESP32-C3-MINI-1 microcontroller with its reset/boot circuit and decoup
 
 
 
-**Total time spent: 3 hours**
+**Total time spent: 2.7 hours**
 
 # october 30: Placed 32 WS2812B RGB LEDs & Decoupling Array
 
@@ -31,4 +31,4 @@ Completed the schematic by routing a 4x8 matrix of 32 WS2812B addressable RGB LE
 
 
 
-**Total time spent: 1.8 hours**
+**Total time spent: 3 hours**
